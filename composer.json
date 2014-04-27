@@ -1,5 +1,5 @@
 {
-    "name": "kmj/paypalbridgebundle",
+    "name": "humanoyd/paypalbridgebundle",
     "type": "symfony-bundle",
     "description": "Symfony2 Bundle creates a bridge for the PayPal REST SDK",
     "keywords": ["KMJ", "paypal"],
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "paypal/rest-api-sdk-php": "dev-master"
+        "paypal/rest-api-sdk-php": "0.7.*"
     },
     "require-dev": {
         "symfony/framework-bundle": ">=2.0"
