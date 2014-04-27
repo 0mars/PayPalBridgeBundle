@@ -72,7 +72,7 @@ kmj_pay_pal_bridge:
     logs:
         enabled: true                                   //Should logs be used
         filename: %kernel.root_dir%/logs/paypal.log     //the location for the log file
-        level: fine                                     //level of log reporting
+        level: FINE                                     //level of log reporting
     http:
         timeout: 30                                     //The http timeout before an error is generated
         retry: true                                     //Should the request be tried again if timeout is reached
